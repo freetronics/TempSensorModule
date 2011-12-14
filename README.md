@@ -1,26 +1,25 @@
-Freetronics ProtoShieldShort
-==============================
+Freetronics Temperature Sensor Module
+======================================
 Copyright 2011 Freetronics Pty Ltd  
-Freetronics site:  <www.freetronics.com>  
-Freetronics email: <info@freetronics.com>  
+Freetronics site:  www.freetronics.com  
+Freetronics email: info@freetronics.com  
 
-A special short prototyping shield for the Arduino, designed to be able
-to clear the RJ45 jack on an Ethernet Shield or Freetronics EtherTen.
-
-Note that this design is intended for simple fabrication and assembly,
-and does not have many of the features of other prototyping shields
-such as the "ProtoShield" (also available from Freetronics) such as
-general-purpose LEDs.
+Breaks out the DS18B20 Dallas 1-wire temperature sensor on a handy
+board with 0.1" headers for easy connection to an Arduino or other
+microcontroller. Includes a "PWR" LED and built-in 4K7 pull-up to run
+the DS18B20 in "powered" mode.
 
 Features:
-
- * Pads for reset button connected to Arduino reset pin.
- * Parts overlay on both the top and the bottom so you can see what you
-   are connecting without having to keep turning the board over.
+ * -55 to +125°C temperature range
+ * +/-0.5°C accuracy
+ * Selectable 9 or 12 bit precision
+ * Arduino compatible library and examples support
+ * Unique device ID coded into every sensor
+ * Two sets of header connections to allow easy daisy-chaining
 
 More information is available at:
 
-  http://www.freetronics.com/protoshield-short
+  http://www.freetronics.com/temp
 
 The "docs" folder within this repository includes a handy copy of the
 schematic in PDF format and image(s) of the pcb.
@@ -32,7 +31,7 @@ The design is saved as an EAGLE project. EAGLE PCB design software is
 available from www.cadsoftusa.com free for non-commercial use. To use
 this project download it and place the directory containing these files
 into the "eagle" directory on your computer. Then open EAGLE and
-navigate to Projects -> eagle -> ProtoShieldShort.
+navigate to Projects -> eagle -> TempSensorModule.
 
 
 DISTRIBUTION
